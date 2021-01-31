@@ -28,16 +28,12 @@ function reloadSkin()
   else
     model = GetHashKey("mp_f_freemode_01")
   end
-        
+
   RequestModel(model)
-  while not HasModelLoaded(model) do
-    RequestModel(model)
-    Citizen.Wait(1)
-  end
-        
+
   SetPlayerModel(PlayerId(), model)
   SetModelAsNoLongerNeeded(model)
-        
+
   TriggerEvent('skinchanger:loadSkin', skin)
   TriggerEvent('esx:restoreLoadout')
   end)
