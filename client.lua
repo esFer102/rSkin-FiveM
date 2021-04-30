@@ -1,5 +1,3 @@
-local soymrx = false
-
 ESX = nil
 
 Citizen.CreateThread(function()
