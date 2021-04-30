@@ -5,8 +5,10 @@ fx_version 'adamant'
 
 game 'gta5'
 
-description 'Comando de /rskin para recargar tu personaje | Command /rskin to reload your skin.'
+description 'Command /rskin to reload your skin.'
 
 version '1.0'
 
 client_script 'client.lua'
+
+server_script 'server.lua'
