@@ -1,3 +1,6 @@
+-- Do not delete this to use my script
+-- Script created by esFerDev. Uploaded from https://github.com/esFer102/rSkin-FiveM
+
 ESX = nil
 
 Citizen.CreateThread(function()
